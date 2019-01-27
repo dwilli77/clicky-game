@@ -8,7 +8,7 @@ const FlagCard = props => {
         className="card-img-top" 
         src={props.image} 
         alt={props.country} 
-        data-id={props.id}
+        id={props.id}
         onClick={props.handleClick}
         />
     </div>
