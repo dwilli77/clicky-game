@@ -73,9 +73,11 @@ class GameContainer extends Component {
         return (
             <div style={style}>
                 <Nav score={this.state.score} />
-                {this.shuffle(this.state.flags).map(flag => {
+                <div className='container'> 
+                    {this.shuffle(this.state.flags).map(flag => {
                     return <FlagCard id={flag.id} key={flag.id} image={flag.image} country={flag.country} handleClick={this.handleClick} />
                 })}
+                </div>
             </div>
         )
     }

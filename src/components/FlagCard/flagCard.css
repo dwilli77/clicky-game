@@ -3,3 +3,7 @@
     display: inline-block;
     margin: 10px;
 }
+
+.card:hover {
+    cursor:pointer;
+}
