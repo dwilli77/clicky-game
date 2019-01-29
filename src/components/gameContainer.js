@@ -41,10 +41,11 @@ class GameContainer extends Component {
                 score: this.state.score +1,
                 clickedFlags: this.state.clickedFlags.concat(event.target.id),
                 unselectedCoutries: this.state.unselectedCountries.splice(index,1)
-            })
-            if (this.state.score === 12) {
-                this.handleWin();
+            }, () => {
+                if (this.state.score === 12) {
+                    this.handleWin();
             }
+            })
         }
     };
 
