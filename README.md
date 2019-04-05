@@ -14,6 +14,9 @@ It's not as easy as it sounds - with each click, the flags will rearrange themse
 
 ***
 
+![screenshot](./screenshot.PNG "Clicky Game")
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
